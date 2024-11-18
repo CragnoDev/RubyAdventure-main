@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="NPCDialogue" src="project://database/Assets/NPCDialogue.uxml?fileID=9197481963319205126&amp;guid=6f588488732df954c9b779d8fe72ab2c&amp;type=3#NPCDialogue" />
+    <ui:VisualElement name="HealthBarBackground" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UnityTechnologies/2DBeginnerAdventureGame/Art/Ducko/UI/UIHealthFrameDucko.png?fileID=21300000&amp;guid=918e7a741c040c140a699a450f3d6e2d&amp;type=3#UIHealthFrameDucko&quot;); width: 600px; height: 281px; align-self: stretch; -unity-background-scale-mode: scale-to-fit; position: absolute;">
+        <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; background-image: none; position: absolute; width: 325px; height: 95px; top: 86px; left: 250px; -unity-background-scale-mode: scale-to-fit;">
+            <ui:VisualElement name="HealthBar" style="flex-grow: 1; height: 100%; position: absolute; width: 100%; max-width: 100%; max-height: 100%; left: 3px; top: 0; background-image: url(&quot;project://database/Assets/UnityTechnologies/StarterAsset/Art/Ducko/UI/UIHealthBar.png?fileID=2800000&amp;guid=39fe000f2b6d9d04b93d6a76310e29aa&amp;type=3#UIHealthBar&quot;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-color: rgba(40, 40, 40, 0); background-image: url(&quot;project://database/Assets/UnityTechnologies/StarterAsset/Art/Ducko/UI/CharacterPortrait.png?fileID=21300000&amp;guid=0332b35b8fe3cf8458eb0558889493d1&amp;type=3#CharacterPortrait&quot;); width: 199px; height: 255px; -unity-background-scale-mode: scale-to-fit; position: absolute; top: 2px; left: 33px;" />
+    <ui:Instance template="NPCDialogue" name="NPCDialogue" style="position: absolute; left: 10%; top: 70%; right: 10%; bottom: 0;" />
+</ui:UXML>
